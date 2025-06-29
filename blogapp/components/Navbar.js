@@ -11,7 +11,6 @@ export default function Navbar() {
           Truly Blog CMS
         </Link>
 
-        {/* Links */}
         <div className="space-x-4 text-sm md:text-base">
           <Link
             href="/admin/posts"
