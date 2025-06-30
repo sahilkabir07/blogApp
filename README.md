@@ -65,7 +65,7 @@ blogApp/
 ├── styles/                    # Tailwind + global styles
 └── public/                    # Static assets
                    
-
+```
 ## 🌍 Live Demo
 👉 [Live Demo](https://blog-app-wheat-nine-58.vercel.app/)
 
