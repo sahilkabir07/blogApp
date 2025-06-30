@@ -35,8 +35,8 @@ A full-stack **Blog Website** built using **Next.js 15**, **MongoDB**, and **Rea
    
 2. **Install dependencies**
    ➡️npm install
-
-3.**Create .env.local file**
+   
+3. **Create .env.local file**
   ➡️MONGO_URI=your_mongodb_connection_string
 
 4. **Run the development server**
@@ -44,6 +44,7 @@ A full-stack **Blog Website** built using **Next.js 15**, **MongoDB**, and **Rea
 
 ## 🛠 Folder Structure
 
+```bash
 blogApp/
 │
 ├── pages/
@@ -63,6 +64,7 @@ blogApp/
 ├── utils/                     # DB connection logic
 ├── styles/                    # Tailwind + global styles
 └── public/                    # Static assets
+                   
 
 ## 🌍 Live Demo
 👉 [Live Demo](https://blog-app-wheat-nine-58.vercel.app/)
