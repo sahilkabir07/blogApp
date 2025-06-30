@@ -1,5 +1,10 @@
 import { useState } from "react";
-import { RichTextEditor } from "@mantine/rte";
+import dynamic from "next/dynamic";
+
+const RichTextEditor = dynamic(
+  () => import("@mantine/rte").then((mod) => mod.RichTextEditor),
+  { ssr: false }
+);
 
 export default function CreatePost() {
   const [formData, setFormData] = useState({
